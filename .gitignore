@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 
 # puku-cli local overrides (kept per-user, not committed)
 PUKU.local.md
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
